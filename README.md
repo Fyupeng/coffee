@@ -1,4 +1,5 @@
-# 一、请求拦截
+## 手机网页端 coffee 咖啡订餐项目
+### 一、请求拦截
 
 ```javascript
 //设置Vue原型属性
@@ -33,7 +34,7 @@ return config;
 
 
 
-# 二、 插件安装
+### 二、 插件安装
 
 vscode 插件vuter
 
@@ -48,7 +49,7 @@ open in browser
 
 Open In Default Browser
 
-# 三、传参方式
+### 三、传参方式
 
 
 通过这方方式传参   name就是你路由配置的时候这个页面定的名字     params: 后面的话就是你要 传递的参数，   这种方式传递参数的缺点就是 页面刷新就没 了
@@ -70,7 +71,7 @@ query:?{ // url的query字符串网址?后面的参数解析出来的对象
 
 `this.$router.go(-1);`
 
-# 四、安装axios
+### 四、安装axios
 
 配置axios
 
@@ -88,7 +89,7 @@ Vue.use(VueAxios, axios)
 
 里面的post请求还需要配置一下main.js里面的东西
 
-# 五、安装node
+### 五、安装node
 
 去官网下载
 
@@ -110,7 +111,7 @@ Vue.use(VueAxios, axios)
 那么我们就卸载重装
 直到他自动配上环境
 
-# 六、安装vant
+### 六、安装vant
 
 安装vant
 
@@ -184,7 +185,7 @@ module.exports = {
 版本问题
 `npm i postcss-pxtorem@5.1.1`
 
-# 七、安装vue
+### 七、安装vue
 
 在系统变量中安装Vue脚手架工具vue-cli
 `npm install -g @vue/cli`
@@ -226,7 +227,7 @@ module.exports = {
 除了选中上面
 后面除了选择less以外  可以一路回车
 
-# 八、复活项目
+### 八、复活项目
 
 运行会生成依赖
 `npm i` 
@@ -241,7 +242,7 @@ PostCSS plugin postcss-pxtorem requires PostCSS 8.
 再装
 `npm i postcss-pxtorem@5.1.1`
 
-# 九、正则
+### 九、正则
 
 然后`npm run serve`就ok了
 
